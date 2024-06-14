@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>HaniPortfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <img src="./assets/hani-logo.png" width="29" height="27" lt="logo">
+            <a href="/">Hanieh Shakeri</a>
+        </div>
+
+       <div class="links">
+        <a href="#about"> About me</a>
+        <a href="#projects"> Projects</a>
+        <a href="/"> Resources</a>
+        <a href="/"> Overview</a>    
+       </div>
+    </nav> 
+
+    <header>
+        <div class="heading" id="about">
+            <p class="sub-heading">This is my portfolio</p>
+            <h1>Hanieh Shakeri</h1> 
+            <hr />
+            <p class="description"> Hey there! Thanks for stopping by :) 
+                <br/>
+                I have recently completed my Master's degree in Communication and Media Engineering. During my studies, I focused on a team project, an internship, and a student job, all of which were related to UI/UX. 
+                These experiences allowed me to gain practical knowledge in various projects. 
+                I am curious by nature, always striving to learn something new and looking for opportunities. </p>
+
+        </div>
+
+        <img src="./assets/profile.jpg" alt="profile">
+    </header>
+
+    <div class="stats-title">
+        <h2>
+            Projects
+        </h2>
+        <!--<p>These projects have been done during my master studies</p>-->
+    </div>
+    
+   <!-- <main class="main">
+        <div class="stats-region">
+            <div>
+                <p>
+                    Total Cases
+                    <br />
+                    <span>
+                    31 N
+                    </span>    
+                </p>
+            </div>
+        
+
+            <div>
+                <p>
+                    Recovered
+                    <br />
+                    <span>
+                    38 M
+                    </span>    
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    Deaths
+                    <br />
+                    <span>
+                    413 K
+                    </span>    
+                </p>
+            </div>
+        </div>
+
+        <div class="stats-global">
+            <div>
+                <p>
+                    Total Cases
+                    <br />
+                    <span>
+                    190 M
+                    </span>    
+                </p>
+            </div>
+        
+
+            <div>
+                <p>
+                    Recovered
+                    <br />
+                    <span>
+                    89.6 M
+                    </span>    
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    Deaths
+                    <br />
+                    <span>
+                    4.08 N
+                    </span>    
+                </p>
+            </div>
+        </div>
+
+        <div class="stats-map">
+            <img src="./assets/map.png" alt="map"> 
+        </div> 
+
+    </main>-->
+
+    <main class="container" id="projects">
+        <div class="sub-container sub-container1">
+            <div class="img-container">
+                <img src="./assets/case-study-intern.png" alt="">
+                <div class="hover-content">
+                    <h5>Internship Project</h5>
+                </div>
+            </div>
+          
+          
+            <div class="large-container large-container1">
+                <h4> Mobile application for tracking status and downloading documents (licenses, invoices, etc.)</h4>
+                
+                <p> Spectrum management system is designed for customers to exploit the full potential of the available spectrum 
+                    for their devices (broadcasting, mobile-Satellite, aeronautical Mobile, etc.) 
+                    The mobile application enable users to apply for personal or organizational licenses.
+                </p>
+                <br />
+                <br />
+
+                <button class="button">Get Details</button>
+                <script>
+                    function animateButton(button) {
+                        button.classList.remove("animate");
+                        setTimeout(() => {
+                            button.classList.add("animate");
+                        }, 600); //1s = 1000ms
+                    }
+                
+                    document.querySelectorAll(".button").forEach(button => {
+                        button.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            animateButton(button);
+                        });
+                    });
+                </script>
+            </div>    
+        </div>
+
+        
+        
+        <div class="sub-container sub-container2">
+            <div class="img-container">
+                <img src="./assets/coffee-project.png" alt="">
+                <div class="hover-content">
+                    <h5>Master Group Project</h5>
+                </div>
+            </div>  
+            
+            <div class="large-container large-container2">
+                  <h4>Problem Statement</h4>
+                  <p>This project is a self defined project which has been implemented in a group of four master 
+                    students Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                    <br />
+                    <br />
+                    
+                <button class="button">Get Details</button>
+                <script>
+                    function animateButton(button) {
+                        button.classList.remove("animate");
+                        setTimeout(() => {
+                            button.classList.add("animate");
+                        }, 600); //1s = 1000ms
+                    }
+                
+                    document.querySelectorAll(".button").forEach(button => {
+                        button.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            animateButton(button);
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        
+        <div class="sub-container sub-container3">
+            <div class="img-container">
+                <img src="./assets/bestzeit-project.png" alt="">
+                <div class="hover-content">
+                    <h5>Application Redesign Project</h5>    
+                </div>
+            </div>
+
+            <div class="large-container large-container3">
+                <h4>Problem Statement</h4>
+                <p>Redesigning Bestzeit's mobile applicationLorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                
+                <br />
+                <br />
+
+                <button class="button">Get Details</button>
+                <script>
+                    function animateButton(button) {
+                        button.classList.remove("animate");
+                        setTimeout(() => {
+                            button.classList.add("animate");
+                        }, 600); //1s = 1000ms
+                    }
+                
+                    document.querySelectorAll(".button").forEach(button => {
+                        button.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            animateButton(button);
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+</html>
