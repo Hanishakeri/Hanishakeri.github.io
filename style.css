@@ -1,3 +1,5 @@
+
+/* ------------------------------------------Rules-----------------------*/
 :root {
     --text-main:#F4F4F4;
     --text-secondary: #575756;
@@ -20,6 +22,8 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/*------------------------------------------Navbar---------------------------------*/
 a {
  color: unset;
  text-decoration: none;
@@ -58,6 +62,8 @@ nav{
     border-radius: 15px;
 }
 
+/*-----------------------------------------header/description-------------------------------*/
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -72,6 +78,15 @@ header img {
     border-radius: 50%;
     margin: 2rem ;
 }
+
+.heading {
+    width:500px;
+}
+.heading p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
 .sub-heading {
     color: var(--accent-color-main);
     margin-bottom: none;
@@ -88,9 +103,14 @@ header hr {
     margin: 0;
 }
 
-.description {
-    font-weight: 100;
+.description p{
+    font-family: "Roboto", sans-serif;
+    font-size: 400;
+    font-weight: 300;
+    color:black;
 }
+
+/*-----------------------------------projects----------------------------------*/
 
 stats-title {
     text-align: center;
@@ -155,6 +175,7 @@ stats-title {
 .img-container {
     position: relative;
 }
+
 .img-container img {
     max-width: 450px;
     margin-bottom: 20px;
@@ -182,7 +203,7 @@ stats-title {
     border-radius: 8px;
 }
 
-.sub-container1, .sub-container2, .sub-container3 {
+.sub-container1, .sub-container2, .sub-container3, .sub-container4 {
     flex: 1 1 calc(33.333% - 40px);
     padding: 20px;
     text-align: center;
@@ -191,8 +212,8 @@ stats-title {
 .sub-container:nth-child(even) {
     flex-direction: row-reverse;
     
-
 }
+
 
 .sub-container h4 {
     margin-top: 10px;
@@ -205,6 +226,13 @@ stats-title {
     margin-top: 10px;
     font-size: 1.2em;
     color: #ffffff;
+}
+
+.sub-container p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem ;
+    color: black;
+    font-weight: 400;
 }
 
 
@@ -246,7 +274,6 @@ stats-title {
 .large-container p {
     color: #666;
     font-size: 1rem;
-    
     margin-left: 48px;
 }
 
@@ -264,6 +291,7 @@ stats-title {
 }
 
 
+/*-----------------------------------------Button------------------------------*/
 
 .button {
     position: relative;
@@ -345,7 +373,44 @@ stats-title {
     }
 }
 
+/*----------------------------------Footer-----------------------------*/
+
+.catch-up {
+    width: 600px;
+    height: 150px;
+}
 
 
+.catch-up p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem ;
+    color: black;
+    font-weight: 300;
+}
+
+
+/*-------------------------------------------Coffee-----------------------------------------*/
+
+
+  .path {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 800;
+    animation: dash 2s linear forwards infinite;
+    position: absolute;
+    top: 68px;
+    left: 173px;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+  .cup {
+    position: absolute;
+    top: 110px;
+    left: -50px;
+  }
+  
 
 
