@@ -19,9 +19,9 @@
         </div>
 
        <div class="links">
-        <a href="#about"> About me</a>
+        <a href=""> About me</a>
         <a href="#projects"> Projects</a>
-        <a href="/"> Catch Up</a>    
+        <a href="#Contact"> Contact</a>    
        </div>
     </nav> 
 
@@ -32,13 +32,13 @@
             <hr />
             <p class="description"> Hey there! Thanks for stopping by :) 
                 <br/>
-                I have recently completed my Master's degree in Communication and Media Engineering. During my studies, I focused on a team project, an internship, and a student job, all of which were related to UI/UX. 
-                These experiences allowed me to gain practical knowledge in various projects. 
+                I have recently completed my Master's degree in Communication and Media Engineering. During my studies, I focused on a team project, an internship, and a student job, all of which were related to media engineering and UI/UX. 
+                These experiences allowed me to gain practical knowledge. 
                 I am curious by nature, always striving to learn something new and looking for opportunities. </p>
 
         </div>
 
-        <img src="./assets/profile.jpg" alt="profile">
+        <img src="./assets/profile.jpg" draggable="false" onContextMenu="return false" alt="profile">
     </header>
 
     <div class="stats-title">
@@ -70,7 +70,7 @@
                 <br />
                 <br />
 
-                <button class="button">Get Details</button>
+                <button class="button" onclick="handleButtonClick(event, 'internship.html')">Get Details</button>
                 <script>
                     function animateButton(button) {
                         button.classList.remove("animate");
@@ -107,7 +107,7 @@
                     <br />
                     <br />
                     
-                <button class="button">Get Details</button>
+                <button class="button" onclick="handleButtonClick(event, 'master-project.html')">Get Details</button>
                 <script>
                     function animateButton(button) {
                         button.classList.remove("animate");
@@ -143,7 +143,7 @@
                 <br />
                 <br />
 
-                <button class="button">Get Details</button>
+                <button class="button" onclick="handleButtonClick(event, 'self-project.html')">Get Details</button>
                 <script>
                     function animateButton(button) {
                         button.classList.remove("animate");
@@ -162,23 +162,43 @@
             </div>
         </div>
 
+        
+
+        <!--------------------------------------------Footer------------------------------>
+
         <div class="stats-title">
             <div>
-                <h2>Catch Up</h2>
+                <h2>Contact</h2>
             </div>
         </div>
 
             <div class="sub-container sub-container4">
-                <div class="catch-up">
-                    <p>Staying proactive and engaged, ensures that I'm always ready for the next step in my career. 
-                        Let's catch up! you can find me on LinkedIn or simply by writing an email. 
-                        I would really like to get to know you, specially to keep connected with recruiters and potential employers.</p>
-                    <br />
-                    <br />
-                    
-                    <p>Let's grab a coffee and have a chat</p>
+            
+                <div class="catch-up" id="Contact">
 
-                    <div class="coffee-container">
+                    <!--<p>Staying proactive and engaged, ensures that I'm always ready for the next step in my career. 
+                        Let's catch up! you can find me on LinkedIn or simply by writing an email. 
+                        I would really like to get to know you, specially to keep connected with recruiters and potential employers.</p>-->
+
+                    
+                    <div class="Contact">
+                        <p>
+                            LinkedIn: <a href="https://www.linkedin.com/in/hanishakeri/">hanishakeri</a>
+                        </p> 
+                    </div>
+                    <div class="Contact">
+                        <p>
+                            E-mail: <a href="mailto:hanieh.shakeri97@gmail.com">hanieh.shakeri97@gmail.com</a>
+                        </p> 
+                    </div>
+                    <div class="Contact">
+                        <p>
+                            Phone: <a href="tel:+491796160122">+491796160122</a>
+                        </p> 
+                    </div>
+                </div>  
+
+                    <!--<div class="coffee-container">
                         <svg class="path" width="40%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
                             <path d="M160.916,92.523c0,0 8.02,7.071 7.135,19.397c-0.86,11.971 -13.31,16.189 -14.152,26.66c-0.898,11.167 7.946,16.891 8.322,17.266" style="fill:none;stroke:#000;stroke-width:3px;"/>
                             <path d="M177.919,92.523c0,0 8.02,7.071 7.135,19.397c-0.86,11.971 -13.31,16.189 -14.152,26.66c-0.899,11.167 7.945,16.891 8.321,17.266" style="fill:none;stroke:#000;stroke-width:3px;"/>
@@ -191,25 +211,33 @@
                             <path d="M99.499,156.28l-0.116,0c0.002,0.044 0.003,0.088 0.003,0.132c0,3.596 -5.655,6.769 -14.254,8.645c0.168,-0.429 0.254,-0.867 0.254,-1.311c0,-0.044 -0.001,-0.088 -0.003,-0.133l0.116,0l0,-60l-51,0l0,-7.333l65,0l0,60Z" style="fill:#8cb0c0;"/>
                             <ellipse cx="66.874" cy="96.412" rx="32.512" ry="10.435" style="fill:#9db8c4;"/><ellipse cx="67.041" cy="97.412" rx="31.345" ry="9.435" style="fill:#608392;"/>
                             <path d="M37.336,100.181c3.769,-3.851 15.668,-6.667 29.747,-6.667c14.079,0 25.977,2.816 29.747,6.667c-3.77,3.851 -15.668,6.666 -29.747,6.666c-14.079,0 -25.978,-2.815 -29.747,-6.666Z" style="fill:#714829;"/></svg>
-
-
-                            <div class="contact">
-                                <p>
-                                    LinkedIn: <a href="https://www.linkedin.com/in/hanishakeri/">hanishakeri</a>
-                                </p> 
-                            </div>
-                    </div>
+        
+                    </div>-->
                     
-                    
-                </div>
      
             </div>
 
-           
-          
-      
 
     </main>
+
+
+<script>
+    function animateButton(button) {
+        button.classList.remove("animate");
+        setTimeout(() => {
+            button.classList.add("animate");
+        }, 600); //1s = 1000ms
+    }
+
+    function handleButtonClick(event, url) {
+        event.preventDefault();
+        const button = event.target;
+        animateButton(button);
+        setTimeout(() => {
+            window.location.href = url;
+        }, 1000); // Delay to match the animation duration
+    }
+</script>
 
 </body>
 </html>
