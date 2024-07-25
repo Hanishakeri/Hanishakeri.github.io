@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    
     <title>HaniPortfolio</title>
 </head>
 <body>
@@ -71,21 +72,7 @@
                 <br />
 
                 <button class="button" onclick="handleButtonClick(event, 'internship.html')">Get Details</button>
-                <script>
-                    function animateButton(button) {
-                        button.classList.remove("animate");
-                        setTimeout(() => {
-                            button.classList.add("animate");
-                        }, 600); //1s = 1000ms
-                    }
-                
-                    document.querySelectorAll(".button").forEach(button => {
-                        button.addEventListener("click", (e) => {
-                            e.preventDefault();
-                            animateButton(button);
-                        });
-                    });
-                </script>
+       
             </div>    
         </div>
 
@@ -108,21 +95,7 @@
                     <br />
                     
                 <button class="button" onclick="handleButtonClick(event, 'master-project.html')">Get Details</button>
-                <script>
-                    function animateButton(button) {
-                        button.classList.remove("animate");
-                        setTimeout(() => {
-                            button.classList.add("animate");
-                        }, 600); //1s = 1000ms
-                    }
-                
-                    document.querySelectorAll(".button").forEach(button => {
-                        button.addEventListener("click", (e) => {
-                            e.preventDefault();
-                            animateButton(button);
-                        });
-                    });
-                </script>
+             
             </div>
         </div>
         
@@ -144,21 +117,7 @@
                 <br />
 
                 <button class="button" onclick="handleButtonClick(event, 'self-project.html')">Get Details</button>
-                <script>
-                    function animateButton(button) {
-                        button.classList.remove("animate");
-                        setTimeout(() => {
-                            button.classList.add("animate");
-                        }, 600); //1s = 1000ms
-                    }
-                
-                    document.querySelectorAll(".button").forEach(button => {
-                        button.addEventListener("click", (e) => {
-                            e.preventDefault();
-                            animateButton(button);
-                        });
-                    });
-                </script>
+          
             </div>
         </div>
 
@@ -220,24 +179,7 @@
 
     </main>
 
-
-<script>
-    function animateButton(button) {
-        button.classList.remove("animate");
-        setTimeout(() => {
-            button.classList.add("animate");
-        }, 600); //1s = 1000ms
-    }
-
-    function handleButtonClick(event, url) {
-        event.preventDefault();
-        const button = event.target;
-        animateButton(button);
-        setTimeout(() => {
-            window.location.href = url;
-        }, 1000); // Delay to match the animation duration
-    }
-</script>
+    <script src="Script.js"></script>
 
 </body>
 </html>
