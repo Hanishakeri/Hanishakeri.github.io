@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>HaniPortfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <img src="./assets/hani-logo.png" width="29" height="27" lt="logo">
+            <a href="/">Hanieh Shakeri</a>
+        </div>
+
+       <div class="links">
+        <a href=""> About me</a>
+        <a href="#projects"> Projects</a>
+        <a href="#Contact"> Contact</a>    
+       </div>
+    </nav> 
+
+    <header>
+        <div class="heading" id="about">
+            <p class="sub-heading">This is my portfolio</p>
+            <h1>Hanieh Shakeri</h1> 
+            <hr />
+            <p class="description"> Hey there! Thanks for stopping by :) 
+                <br/>
+                I have recently completed my Master's degree in Communication and Media Engineering. During my studies, I focused on a team project, an internship, and a student job, all of which were related to media engineering and UI/UX. 
+                These experiences allowed me to gain practical knowledge. 
+                I am curious by nature, always striving to learn something new and looking for opportunities. </p>
+
+        </div>
+
+        <img src="./assets/profile.jpg" draggable="false" onContextMenu="return false" alt="profile">
+    </header>
+
+    <div class="stats-title">
+        <h2>
+            Projects
+        </h2>
+        <!--<p>These projects have been done during my master studies</p>-->
+    </div>
+    
+
+
+    <main class="container" id="projects">
+        <div class="sub-container sub-container1">
+            <div class="img-container">
+                <img src="./assets/case-study-intern.png" alt="">
+                <div class="hover-content">
+                    <h5>Internship Project</h5>
+                </div>
+            </div>
+          
+          
+            <div class="large-container large-container1">
+                <h4> Mobile application for tracking license status and downloading documents (licenses, invoices, etc.)</h4>
+                
+                <p> Spectrum management system is designed for customers to exploit the full potential of the available spectrum 
+                    for their devices (broadcasting, mobile-Satellite, aeronautical Mobile, etc.) 
+                    The mobile application enable users to apply for personal or organizational licenses.
+                </p>
+                <br />
+                <br />
+
+                <button class="button" onclick="handleButtonClick(event, 'internship.html')">Get Details</button>
+       
+            </div>    
+        </div>
+
+        
+        
+        <div class="sub-container sub-container2">
+            <div class="img-container">
+                <img src="./assets/coffee-project.png" alt="">
+                <div class="hover-content">
+                    <h5>Master Group Project</h5>
+                </div>
+            </div>  
+            
+            <div class="large-container large-container2">
+                  <h4>Implementing a Docker and CI/CD based Web Application with a Friendly and Intuitive Interface</h4>
+                  <p>This project is a self defined project which has been implemented in a group of four master students. It aimed to show how Docker can be beneficial for developing a web-application. 
+                    The Docker (previously called “dot-docker”) platform allows you to package up your application(s) and deliver them to the cloud without any dependencies.</p>
+
+                    <br />
+                    <br />
+                    
+                <button class="button" onclick="handleButtonClick(event, 'master-project.html')">Get Details</button>
+             
+            </div>
+        </div>
+        
+        <div class="sub-container sub-container3">
+            <div class="img-container">
+                <img src="./assets/bestzeit-project.png" alt="">
+                <div class="hover-content">
+                    <h5>Application Redesign Project</h5>    
+                </div>
+            </div>
+
+            <div class="large-container large-container3">
+                <h4>Mobile application redesign for an easier data reception for a sport app</h4>
+                <p>Data collection is a significant feature that allows businesses to provide the best advice to their target audience. 
+                    The interface for this process needs to be engaging and attractive. Moreover, accessibility should be considered for all users.
+                </p>
+                
+                <br />
+                <br />
+
+                <button class="button" onclick="handleButtonClick(event, 'self-project.html')">Get Details</button>
+          
+            </div>
+        </div>
+
+        
+
+        <!--------------------------------------------Footer------------------------------>
+
+        <div class="stats-title">
+            <div>
+                <h2>Contact</h2>
+            </div>
+        </div>
+
+            <div class="sub-container sub-container4">
+            
+                <div class="catch-up" id="Contact">
+
+                    <!--<p>Staying proactive and engaged, ensures that I'm always ready for the next step in my career. 
+                        Let's catch up! you can find me on LinkedIn or simply by writing an email. 
+                        I would really like to get to know you, specially to keep connected with recruiters and potential employers.</p>-->
+
+                    
+                    <div class="Contact">
+                        <p>
+                            LinkedIn: <a href="https://www.linkedin.com/in/hanishakeri/">hanishakeri</a>
+                        </p> 
+                    </div>
+                    <div class="Contact">
+                        <p>
+                            E-mail: <a href="mailto:hanieh.shakeri97@gmail.com">hanieh.shakeri97@gmail.com</a>
+                        </p> 
+                    </div>
+                    <div class="Contact">
+                        <p>
+                            Phone: <a href="tel:+491796160122">+491796160122</a>
+                        </p> 
+                    </div>
+                </div>  
+
+                    <!--<div class="coffee-container">
+                        <svg class="path" width="40%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                            <path d="M160.916,92.523c0,0 8.02,7.071 7.135,19.397c-0.86,11.971 -13.31,16.189 -14.152,26.66c-0.898,11.167 7.946,16.891 8.322,17.266" style="fill:none;stroke:#000;stroke-width:3px;"/>
+                            <path d="M177.919,92.523c0,0 8.02,7.071 7.135,19.397c-0.86,11.971 -13.31,16.189 -14.152,26.66c-0.899,11.167 7.945,16.891 8.321,17.266" style="fill:none;stroke:#000;stroke-width:3px;"/>
+                            <path d="M195.216,92.523c0,0 8.021,7.071 7.135,19.397c-0.86,11.971 -13.31,16.189 -14.152,26.66c-0.898,11.167 7.946,16.891 8.322,17.266" style="fill:none;stroke:#000;stroke-width:3px;"/></svg>
+                            
+                            
+                        <svg class="cup" width="80%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                            <path d="M98.582,110.197c9.843,0 17.833,7.841 17.833,17.5c0,9.658 -7.99,17.5 -17.833,17.5c-9.842,0 -17.833,-7.842 -17.833,-17.5c0,-9.659 7.991,-17.5 17.833,-17.5Zm0,5.119c6.963,0 12.617,5.547 12.617,12.381c0,6.833 -5.654,12.381 -12.617,12.381c-6.963,0 -12.617,-5.548 -12.617,-12.381c0,-6.834 5.654,-12.381 12.617,-12.381Z" style="fill:#8cb0c0;"/>
+                            <path d="M99.499,156.28l-0.116,0c0.002,0.044 0.003,0.088 0.003,0.132c0,5.759 -14.512,10.435 -32.387,10.435c-17.874,0 -32.386,-4.676 -32.386,-10.435c0,-0.044 0.001,-0.088 0.003,-0.132l-0.117,0l0,-60l65,0l0,60Z" style="fill:#9db8c4;"/>
+                            <path d="M99.499,156.28l-0.116,0c0.002,0.044 0.003,0.088 0.003,0.132c0,3.596 -5.655,6.769 -14.254,8.645c0.168,-0.429 0.254,-0.867 0.254,-1.311c0,-0.044 -0.001,-0.088 -0.003,-0.133l0.116,0l0,-60l-51,0l0,-7.333l65,0l0,60Z" style="fill:#8cb0c0;"/>
+                            <ellipse cx="66.874" cy="96.412" rx="32.512" ry="10.435" style="fill:#9db8c4;"/><ellipse cx="67.041" cy="97.412" rx="31.345" ry="9.435" style="fill:#608392;"/>
+                            <path d="M37.336,100.181c3.769,-3.851 15.668,-6.667 29.747,-6.667c14.079,0 25.977,2.816 29.747,6.667c-3.77,3.851 -15.668,6.666 -29.747,6.666c-14.079,0 -25.978,-2.815 -29.747,-6.666Z" style="fill:#714829;"/></svg>
+        
+                    </div>-->
+                    
+     
+            </div>
+
+
+    </main>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
