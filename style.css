@@ -23,7 +23,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*------------------------------------------Navbar---------------------------------*/
+/*------------------------------------------Navbar Index (Main Page)---------------------------------*/
 a {
  color: unset;
  text-decoration: none;
@@ -62,13 +62,14 @@ nav{
     border-radius: 15px;
 }
 
-/*-----------------------------------------header/description-------------------------------*/
+/*-----------------------------------------header/description Index (Main Page)-------------------------------*/
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-left: 2rem;
+    
 }
 
 header img {
@@ -77,14 +78,17 @@ header img {
     grid-column: 3;
     border-radius: 50%;
     margin: 2rem ;
+    
 }
 
 .heading {
-    width:500px;
+    width:570px;
 }
 .heading p{
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 1px;
 }
 
 .sub-heading {
@@ -110,7 +114,7 @@ header hr {
     color:black;
 }
 
-/*-----------------------------------projects----------------------------------*/
+/*-----------------------------------projects Index (Main Page)----------------------------------*/
 
 stats-title {
     text-align: center;
@@ -291,7 +295,7 @@ stats-title {
 }
 
 
-/*-----------------------------------------Button------------------------------*/
+/*-----------------------------------------Button Index(Main Page)------------------------------*/
 
 .button {
     position: relative;
@@ -373,23 +377,44 @@ stats-title {
     }
 }
 
-/*----------------------------------Footer-----------------------------*/
+/*----------------------------------Footer Contact Index (Main Page)-----------------------------*/
+
+.sub-container4{
+    display:  flex;
+    flex-direction: column;
+}
 
 .catch-up {
     width: 600px;
-    height: 150px;
+    height: 300px;
 }
 
+
+.catch-up > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; 
+}
 
 .catch-up p {
     font-family: "Roboto", sans-serif;
     font-size: 1rem ;
     color: black;
     font-weight: 300;
+    text-align: center;
+}
+
+.contact {
+    width: 200px;
+    height: 150px;
 }
 
 
-/*-------------------------------------------Coffee-----------------------------------------*/
+
+
+
+/*-------------------------------------------Coffee-----------------------------------------
 
 
   .path {
@@ -411,6 +436,22 @@ stats-title {
     top: 110px;
     left: -50px;
   }
-  
+*-------------------------------------------------------------------------------------------  
+
+
+/*----------------------------------------Internship Project Overview--------------------------*/
+
+.Overview{
+    display: grid;
+    grid-template-columns: 8fr;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 400;
+    font-weight: 300;
+    color:black;
+    line-height: 1.3;
+    margin-left: 2rem;
+    margin-top: 6rem;
+}
 
 
