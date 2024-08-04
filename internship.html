@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body>
+<body class="second-page">
     <nav>
         <div class="brand">
             <img src="./assets/hani-logo.png" width="29" height="27" lt="logo">
@@ -29,26 +29,247 @@
     </nav> 
 
     <header>
-        <div class="Overview" id="context">
+        <div class="Overview">
             <h1>Project Overview</h1> 
             <hr />
 
             <p class="description"> 
-                I have recently completed my Master's degree in Communication and Media Engineering. During my studies, I focused on a team project, an internship, and a student job, all of which were related to media engineering and UI/UX. 
-                These experiences allowed me to gain practical knowledge. 
-                I am curious by nature, always striving to learn something new and looking for opportunities. 
-            </p>
+                A mobile version of a software called mySPECTRA-portal needed to be implemented. 
+                Numerous tables of data in the mentioned software required a decision to be either omitted or consolidated. 
+                Therefore, prioritizing important information due to the size of mobile screen compared to web applications should've be considered and only significant information stayed. 
+                The key data such as columns that users need to access quickly have been identified. Moreover, it was crucial to remove less critical columns instead mention them under expandable sections.
 
             <ul>
                 <li>Developing the design of a mobile application for a software platforms used by LStelcom</li>
                 <li>Comarision and prioritization of data used on the web application to be in the mobile version</li>
                 <li>Understanding of the overall concept of license registeration</li>
+                
             </ul>
+
+
+            <h2>Possible solutions</h2>
+            <li>Provide list of all of available products</li>
+            <li>Categorize products that are availabe to be used on mobile screen</li>
+            <li>Make potential personas</li>
+            <li>Ideate solutions such as card sorting</li>
+            <li>Optimize user flow</li>
+            <li>Create high fidelity prototypes</li>
+                
         </div>
 
-
-        
+             <div class="img-context">
+                <img src="./img/internship-overview.png"  alt="overview">
+            </div> 
+    
+           
     </header>
+    <br>
+    <br>
+       <!-- <div class="role">
+
+                <div class="box">
+                    <img src="./img/ux-research.PNG" alt="research">
+                    <p>UX Research</p>
+                </div>
+
+                <div class="box">
+                    <img src="./img/user-flow.PNG" alt="flow">
+                    <p>User Flow</p>
+                </div>
+                
+                <div class="box">
+                    <img src="" alt="">
+                    <p>UI Design</p>
+                </div>
+                
+        </div> -->
+
+        <div class="process">
+            <h2>Process</h2>
+            <div class="grid-container">
+                <div class="box discover">
+                    <p>🚀 Discover</p>
+                </div>
+                <div class="box define">
+                    <p>📝Define</p>
+                </div>
+                <div class="box ideate">
+                    <p>💡Ideate</p>
+                </div>
+                <div class="box prototype">
+                    <p>🎨 Prototype</p>
+                </div>
+                <div class="box iterate">
+                    <p>🔄 Iterate</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="problem-statement">
+            <h2>Discover Personas</h2>
+                <p>MySPECTRA-Office is a software platform that allows the authorities to check the requests of customers to give licenses for specific services based on individual requirements. 
+                    MySPECTRA-Portal is another software platform that allows customers to send their request to get licenses for the targeted services based on individual demands.
+                     Users of the mobile application and reason of use of such an application is shown below:</p>
+
+                     
+                <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Why</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Private User/ Amateur radio user</td>
+                            <td>An individual who holds an amateur radio license and engages in radio communication as a hobby or to communicate with other operators locally, nationally, or internationally. 
+                                They often participate in activities such as emergency communications, contesting, experimenting with radio equipment and providing public service.</td>
+                        </tr>
+                        <tr>
+                            <td>An employee of a large company</td>
+                            <td>He is responsible for applying for licenses for his company. Not multiple companies.</td>
+                        </tr>
+                        <tr>
+                            <td>Agent</td>
+                            <td>He submits multiple applications for different companies. Therefore, he might have different logins.</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                        </tbody>
+                </table>
+            </div>
+
+            <br>
+            <br>
+
+            <p>With the given information mySPETRA-Portal users need to do 3 main tasks:</p>
+
+            <ul>
+                <li>Send applications/ Requests</li>
+                <li>Check licenses</li>
+                <li>Pay invoices</li>
+            </ul>
+            
+            
+            <p>On the other hand, users of the mobile application and their reason for using such an application for mySPECTRA-Office are shown below:</p>
+            
+            
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Why</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Secretary</td>
+                            <td>enters the data so basically his task is to type the data in the tables.</td>
+                        </tr>
+                        <tr>
+                            <td>Technical Expert</td>
+                            <td>checks the data with knowledge about technical details.</td>
+                        </tr>
+                        <tr>
+                            <td>Manager/Authorization Role</td>
+                            <td>spread the employer tasks
+                                To acknowledge or confirm if the technical expert is correct</td>
+                        </tr>
+                        <tr>
+                            <td>IT administrator</td>
+                            <td>Needs to take care of the system, database, and so on</td>
+                        </tr>
+                        <tr>
+                            <td>Head of Department</td>
+                            <td>Check how many applications have been submitted</td>
+                        </tr>
+                        <tr>
+                            <td>Financial Department</td>
+                            <td>Needs to take care of the system, database and so</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+
+                <br>
+                <br>
+ 
+                <p>With the given information mySPETRA-Office users need to do three main tasks:</p>
+                <ul>
+                    <li>Checks the data/ requests</li>
+                    <li>Confirm the data</li>
+                    <li>Give approvals based on the demands</li>
+                </ul>
+            
+                <br>
+
+                <p>After gathering all the general information about our users, the process of making personas visually started. The results of mySPECTA-Portal are shown below. 
+                    I have added personal info such as age, career, education, and location. Also added tasks, skills, frustration, and motivations of the user while working with the application. 
+                    Plus, the bio and a bold sentence given by each user. All this information helped me to have a better understanding of my users and to give a solution that is useable for all of them. 
+                    Of course, it is not always possible to fulfill every wish of all users at once. But having the personas is a good resource for making most of the demands available to bring the highest satisfaction for the costumers.</p>
+
+                
+                <div class="image-container">   
+                <img src="./img/Prsonal-portal.png" alt="persona" class="responsive-image">
+                </div>
+
+                    <div>
+                        <h2>Define Uesr Flow</h2>
+                     <p>After learning the process of data registration in the web application now it's time to
+                        make a flow of the same process in the mobile application based on our user needs. 
+                        I have made a flow chart by exploring software platforms at LS telcom and extracting the mutual actions leading to an activity for the user to achieve their goals in the mobile application. 
+                        This flow chart describes the starting points, actions required, moments of decision, and endpoints.
+                     </p>
+                     <div class="image-container"> 
+                        <img src="./img/user-flow.PNG" alt="flow" class="responsive-image">
+                     </div>
+                    </div>
+
+                
+                    <div>
+                        <h2>Wireframing and Prototype Ideation</h2>
+                     <p>started to develop ideas for the defined problems in the software platforms of the company and delivered the idea to the mobile version. 
+                        For example, using cards instead of huge tables of data. Of course, it is normal to have tables of data on big screens such as monitors at the office but the same doesn’t go with small mobile screens. 
+                        Therefore, I think of having all the important required information such as application number, service name, and amount to pay in a minimal card for the mobile screen. 
+                        I started bringing the ideas on paper as you can see in the image below one of the wireframing’s based on the initial ideas for the login dialog.
+                        </p>
+                     <div class="image-container"> 
+                         <img src="./img/prototype.PNG" alt="proto" class="responsive-image">
+                     </div>
+
+                    <div>
+                     <h2>Design and Iteration</h2>
+                        <p>After ideation and wireframing, I built a suitable useful design, starting from the login dialog using the Figma tool.
+                        The iterative design process is a simple concept. Once, through user research, you have identified a user need and have generated ideas to meet that need, you develop a prototype.
+                        Then you test the prototype to see whether it meets the need in the best possible way. 
+                        Then you take what you learned from testing and amend the design. Following that, you create a new prototype and begin the process all over again until you are satisfied that you’ve reached the best possible product for release to the market.
+                        Iteration can be used at any phase of the design process.
+                        </p>
+                     <div class="image-container"> 
+                        <img src="./img/iteration.png" alt="iterate" class="responsive-image">
+                    </div>
+
+                    <div>
+                        <h2>Conclusion</h2>
+                           <p>Although details always need to be considered but knowing about the concept is of great significance. 
+                            Horizontal scroll for tables is quite difficult to get right. Users tend to get lost in a large table, often not knowing what represents what and what exactly are looking at. 
+                            Feature Comparison tables can be helpful in this case. Moreover, grouping with tabs or accordions can be very usable. We could allow users to navigate through the different features of different plans with accordance or sticky tabs.
+                             This is useful to allow users to quickly jump between the plans and find a good fit for them.
+                           </p>
+                        <div class="image-container"> 
+                        <img src="./img/page-examples.png" alt="example" class="responsive-image">
+                        </div>
+                       
+                </div>
+
+
+          
+                
+        </div>
+         
     
 </body>
 </html>
